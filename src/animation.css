@@ -1,0 +1,102 @@
+.animLogo {
+  animation: pulsing 2s infinite;
+}
+@keyframes pulsing {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animFadeIN {
+  animation: fadeIn 3s infinite;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.animBounce {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  50% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.animRotate {
+  animation: rotate 2s infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.circle-one {
+  animation: move1 10s linear infinite;
+}
+.circle-two {
+  animation: move2 10s linear infinite;
+}
+
+@keyframes move1 {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  25% {
+    transform: translate(200px, 200px) scale(1);
+  }
+  50% {
+    transform: translate(100px, 400px) scale(1.2);
+  }
+  75% {
+    transform: translate(-100px, -200px) scale(1.1);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  25% {
+    transform: translate(-200px, 200px) scale(1);
+  }
+  50% {
+    transform: translate(-100px, -400px) scale(1.2);
+  }
+  75% {
+    transform: translate(100px, -200px) scale(1.1);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
