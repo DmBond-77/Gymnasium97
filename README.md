@@ -1,9 +1,12 @@
-#### Boilerplate Vite+React_JS Tailwind Hamburger_Menu
+# 🇰🇿 Kazakhstan History Quiz
 
-```
-import Hamburger from 'hamburger-react'
-const [isOpen, setOpen] = useState(false)
-<Hamburger toggled={isOpen} toggle={setOpen} />
-```
+Интерактивный сайт-викторина, посвящённый истории Казахстана. Реализован на React с использованием Vite, TailwindCSS и React Router DOM.
 
-[settings of Hamburger][https://hamburger-react.netlify.app/]
+## 🚀 Технологии
+
+- ⚛️ React
+- ⚡ Vite
+- 🌬 TailwindCSS
+- 🔀 React Router DOM
+- 🍔 Hamburger-react (меню)
+- 🎨 Адаптивный дизайн
