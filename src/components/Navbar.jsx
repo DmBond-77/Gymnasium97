@@ -21,9 +21,9 @@ function Navbar() {
 
       <nav className="h-30 relative z-40 flex items-center justify-between border-b-2 border-b-kazDark bg-white px-4 py-10">
         <div>
-          <Link to="/" className="textGradient">
+          <a href="/" className="textGradient">
             <img src="./images/logo.jpg" alt="Logo" className="h-16 w-16" />
-          </Link>
+          </a>
         </div>
 
         <ul className="hidden gap-6 md:flex">
